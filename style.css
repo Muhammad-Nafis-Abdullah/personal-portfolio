@@ -364,6 +364,9 @@ footer>p{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 400px) {
+    .half-width h1{
+        font-size: 2em;
+    }
     .top-text{
         display: flex;
         flex-flow: column nowrap;
@@ -374,6 +377,9 @@ footer>p{
     .linked-button{
         align-self: center;
         text-align: center;
+    }
+    .mission-card-area h2{
+        font-size: 2em;
     }
     .card-layer>div{
         flex: 0 0 100%;
