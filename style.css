@@ -30,7 +30,122 @@ body>section{
 p{
     color: rgb(41, 41, 41);
 }
-
+/* ------------------------------------------- */
+.text-highlight{
+    color: rgb(11, 168, 147);
+    font-family: 'Exo 2', sans-serif;
+}
+.text-highlight::after{
+    content: "";
+    animation: writing 8s ease-out infinite;
+}
+@keyframes writing {
+    0% {
+        content: "|";
+    }
+    4% {
+        content: "u|";
+    }
+    8% {
+        content: "uh|";
+    }
+    12% {
+        content: "uha|";
+    }
+    16% {
+        content: "uham|";
+    }
+    20% {
+        content: "uhamm|";
+    }
+    24% {
+        content: "uhamma|";
+    }
+    28% {
+        content: "uhammad|";
+    }
+    32% {
+        content: "uhammad |";
+    }
+    36% {
+        content: "uhammad N|";
+    }
+    40% {
+        content: "uhammad Na|";
+    }
+    44% {
+        content: "uhammad Naf|";
+    }
+    48% {
+        content: "uhammad Nafi|";
+    }
+    52% {
+        content: "uhammad Nafis|";
+    }
+    56% {
+        content: "uhammad Nafis |";
+    }
+    60% {
+        content: "uhammad Nafis A|";
+    }
+    64% {
+        content: "uhammad Nafis Ab|";
+    }
+    68% {
+        content: "uhammad Nafis Abd|";
+    }
+    72% {
+        content: "uhammad Nafis Abdu|";
+    }
+    76% {
+        content: "uhammad Nafis Abdul|";
+    }
+    80% {
+        content: "uhammad Nafis Abdull|";
+    }
+    84% {
+        content: "uhammad Nafis Abdulla|";
+    }
+    88% {
+        content: "uhammad Nafis Abdullah|";
+    }
+    89% {
+        content: "uhammad Nafis Abdullah|";
+    }
+    90% {
+        content: "uhammad Nafis Abd|";
+    }
+    91% {
+        content: "uhammad Nafis A|";
+    }
+    92% {
+        content: "uhammad Nafis|";
+    }
+    93% {
+        content: "uhammad Naf|";
+    }
+    94% {
+        content: "uhammad N|";
+    }
+    95% {
+        content: "uhammad N|";
+    }
+    96% {
+        content: "uhammad|";
+    }
+    97% {
+        content: "uhamm|";
+    }
+    98% {
+        content: "uha|";
+    }
+    99% {
+        content: "u|";
+    }
+    100% {
+        content: "|";
+    }
+}
 
 
 /* ------------------------------------------- */
@@ -59,6 +174,11 @@ p{
     flex: 1 1 22rem;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+.top-image h2{
+    font-size: 2.2em;
 }
 
 .half-width h1{
@@ -87,10 +207,6 @@ p{
     width: 80%;
     margin-left: 2rem;
     border-radius: 1.5rem;
-    /* background-image: url("images/shapes/shape-8.png");
-    background-position: 50% 0;
-    background-repeat: no-repeat;
-    background-size: 20rem; */
 }
 
 
@@ -304,11 +420,14 @@ footer>p{
         align-self: center;
         flex: 0 1 auto;
     }
+    .top-image h2{
+        text-align: center;
+        margin-bottom: 3rem;
+    }
     .half-width img{
         width: 100%;
         max-width: 25rem;
         margin-left: 0;
-        margin-bottom: 3rem;
     }
     .card-layer>div{
         flex: 0 0 45%;
