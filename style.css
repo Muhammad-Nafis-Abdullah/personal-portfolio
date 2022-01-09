@@ -51,10 +51,12 @@ p{
     /* border: solid; */
 }
 .top-text{
-    flex: 1 1 26rem;
+    flex: 3 1 22rem;
+    align-self: center;
 }
 .top-image{
-    flex: 0 1 26rem;
+    align-self: flex-start;
+    flex: 1 1 22rem;
     display: flex;
     justify-content: center;
 }
@@ -299,6 +301,7 @@ footer>p{
         flex-flow: column-reverse nowrap;
     }
     .top-image{
+        align-self: center;
         flex: 0 1 auto;
     }
     .half-width img{
@@ -337,6 +340,9 @@ footer>p{
     }
     .top-image{
         flex: 0 1 auto;
+    }
+    .half-width img{
+        max-width: 20rem;
     }
     .mission-card-area{
         background-position: 50% -25%;
