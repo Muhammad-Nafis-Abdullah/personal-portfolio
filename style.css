@@ -19,6 +19,10 @@
     display: inline-block;
     margin: 1.3rem 0 2rem;
     font-family: 'Exo', sans-serif;
+    transition: transform .1s linear;
+}
+.linked-button:active{
+    transform: scale(.95);
 }
 body>section{
     padding: 0 10%;
@@ -117,7 +121,7 @@ p{
     height: 23rem;
     margin: .4%;
     border-radius: 1.5rem;
-    padding: 1%;
+    padding: 1% 2.8%;
 }
 .bg-lBlue{
     background-color: rgba(173, 216, 230, 0.507);
@@ -136,10 +140,11 @@ p{
 .card-layer>div>h3{
     margin: 1rem 0;
     font-size: 1.5em;
+    padding-left: .5rem;
 }
 .card-layer>div>p{
     line-height: 1.3;
-    height: 8rem;
+    height: 7.8rem;
     border-radius: .2rem;
     overflow:auto;
 }
