@@ -41,112 +41,122 @@ p{
 }
 @keyframes writing {
     0% {
-        content: "|";
+        content: "";
     }
     4% {
-        content: "u|";
+        content: "Mu";
     }
     8% {
-        content: "uh|";
+        content: "Muh";
     }
     12% {
-        content: "uha|";
+        content: "Muha";
     }
     16% {
-        content: "uham|";
+        content: "Muham";
     }
     20% {
-        content: "uhamm|";
+        content: "Muhamm";
     }
     24% {
-        content: "uhamma|";
+        content: "Muhamma";
     }
     28% {
-        content: "uhammad|";
+        content: "Muhammad";
     }
     32% {
-        content: "uhammad |";
+        content: "Muhammad ";
     }
     36% {
-        content: "uhammad N|";
+        content: "Muhammad N";
     }
     40% {
-        content: "uhammad Na|";
+        content: "Muhammad Na";
     }
     44% {
-        content: "uhammad Naf|";
+        content: "Muhammad Naf";
     }
     48% {
-        content: "uhammad Nafi|";
+        content: "Muhammad Nafi";
     }
     52% {
-        content: "uhammad Nafis|";
+        content: "Muhammad Nafis";
     }
     56% {
-        content: "uhammad Nafis |";
+        content: "Muhammad Nafis ";
     }
     60% {
-        content: "uhammad Nafis A|";
+        content: "Muhammad Nafis A";
     }
     64% {
-        content: "uhammad Nafis Ab|";
+        content: "Muhammad Nafis Ab";
     }
     68% {
-        content: "uhammad Nafis Abd|";
+        content: "Muhammad Nafis Abd";
     }
     72% {
-        content: "uhammad Nafis Abdu|";
+        content: "Muhammad Nafis Abdu";
     }
     76% {
-        content: "uhammad Nafis Abdul|";
+        content: "Muhammad Nafis Abdul";
     }
     80% {
-        content: "uhammad Nafis Abdull|";
+        content: "Muhammad Nafis Abdull";
     }
     84% {
-        content: "uhammad Nafis Abdulla|";
+        content: "Muhammad Nafis Abdulla";
     }
     88% {
-        content: "uhammad Nafis Abdullah|";
+        content: "Muhammad Nafis Abdullah";
     }
     89% {
-        content: "uhammad Nafis Abdullah|";
+        content: "Muhammad Nafis Abdullah";
     }
     90% {
-        content: "uhammad Nafis Abd|";
+        content: "Muhammad Nafis Abd";
     }
     91% {
-        content: "uhammad Nafis A|";
+        content: "Muhammad Nafis A";
     }
     92% {
-        content: "uhammad Nafis|";
+        content: "Muhammad Nafis";
     }
     93% {
-        content: "uhammad Naf|";
+        content: "Muhammad Naf";
     }
     94% {
-        content: "uhammad N|";
+        content: "Muhammad N";
     }
     95% {
-        content: "uhammad N|";
+        content: "Muhammad N";
     }
     96% {
-        content: "uhammad|";
+        content: "Muhammad";
     }
     97% {
-        content: "uhamm|";
+        content: "Muhamm";
     }
     98% {
-        content: "uha|";
+        content: "Muha";
     }
     99% {
-        content: "u|";
+        content: "Mu";
     }
     100% {
-        content: "|";
+        content: "";
     }
 }
-
+.ceret{
+    animation: blink .4s infinite;
+}
+@keyframes blink {
+    from,to{
+        color: rgb(255, 145, 0);
+    }
+    50%{
+        color: transparent;
+    }
+}
 
 /* ------------------------------------------- */
 /* top section of the website */
