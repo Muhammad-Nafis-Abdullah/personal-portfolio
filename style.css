@@ -35,11 +35,11 @@ p{
     color: rgb(11, 168, 147);
     font-family: 'Exo 2', sans-serif;
 }
-.text-highlight::after{
+.text-highlight::before{
     content: "";
-    animation: writing 8s ease-out infinite;
+    animation: myname 8s ease-out infinite ;
 }
-@keyframes writing {
+@keyframes myname {
     0% {
         content: "";
     }
@@ -146,12 +146,120 @@ p{
         content: "";
     }
 }
+@keyframes junior {
+    0% {
+        content: "";
+    }
+    4% {
+        content: "a ";
+    }
+    8% {
+        content: "a j";
+    }
+    12% {
+        content: "a ju";
+    }
+    16% {
+        content: "a jun";
+    }
+    20% {
+        content: "a juni";
+    }
+    24% {
+        content: "a junio";
+    }
+    28% {
+        content: "a junior";
+    }
+    32% {
+        content: "a junior ";
+    }
+    36% {
+        content: "a junior W";
+    }
+    40% {
+        content: "a junior We";
+    }
+    44% {
+        content: "a junior Web";
+    }
+    48% {
+        content: "a junior Web ";
+    }
+    52% {
+        content: "a junior Web D";
+    }
+    56% {
+        content: "a junior Web De";
+    }
+    60% {
+        content: "a junior Web Dev";
+    }
+    64% {
+        content: "a junior Web Deve";
+    }
+    68% {
+        content: "a junior Web Devel";
+    }
+    72% {
+        content: "a junior Web Develo";
+    }
+    76% {
+        content: "a junior Web Develop";
+    }
+    80% {
+        content: "a junior Web Develope";
+    }
+    84% {
+        content: "a junior Web Developer";
+    }
+    88% {
+        content: "a junior Web Developer";
+    }
+    89% {
+        content: "a junior Web Develop";
+    }
+    90% {
+        content: "a junior Web Devel";
+    }
+    91% {
+        content: "a junior Web Dev";
+    }
+    92% {
+        content: "a junior Web D";
+    }
+    93% {
+        content: "a junior Web";
+    }
+    94% {
+        content: "a junior We";
+    }
+    95% {
+        content: "a junior";
+    }
+    96% {
+        content: "a junio";
+    }
+    97% {
+        content: "a juni";
+    }
+    98% {
+        content: "a ju";
+    }
+    99% {
+        content: "a ";
+    }
+    100% {
+        content: "";
+    }
+}
+
 .ceret{
-    animation: blink .4s infinite;
+    animation: blink .5s infinite;
 }
 @keyframes blink {
     from,to{
-        color: rgb(255, 145, 0);
+        color: rgb(255, 174, 0);
     }
     50%{
         color: transparent;
