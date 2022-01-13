@@ -37,217 +37,164 @@ p{
 }
 .text-highlight::before{
     content: "";
-    animation: myname 8s ease-out infinite ;
+    animation: myname 10s linear infinite ;
 }
 @keyframes myname {
     0% {
         content: "";
     }
-    4% {
+    2% {
         content: "Mu";
     }
-    8% {
+    4% {
         content: "Muh";
     }
-    12% {
+    6% {
         content: "Muha";
-    }
-    16% {
-        content: "Muham";
-    }
-    20% {
-        content: "Muhamm";
-    }
-    24% {
-        content: "Muhamma";
-    }
-    28% {
-        content: "Muhammad";
-    }
-    32% {
-        content: "Muhammad ";
-    }
-    36% {
-        content: "Muhammad N";
-    }
-    40% {
-        content: "Muhammad Na";
-    }
-    44% {
-        content: "Muhammad Naf";
-    }
-    48% {
-        content: "Muhammad Nafi";
-    }
-    52% {
-        content: "Muhammad Nafis";
-    }
-    56% {
-        content: "Muhammad Nafis ";
-    }
-    60% {
-        content: "Muhammad Nafis A";
-    }
-    64% {
-        content: "Muhammad Nafis Ab";
-    }
-    68% {
-        content: "Muhammad Nafis Abd";
-    }
-    72% {
-        content: "Muhammad Nafis Abdu";
-    }
-    76% {
-        content: "Muhammad Nafis Abdul";
-    }
-    80% {
-        content: "Muhammad Nafis Abdull";
-    }
-    84% {
-        content: "Muhammad Nafis Abdulla";
-    }
-    88% {
-        content: "Muhammad Nafis Abdullah";
-    }
-    89% {
-        content: "Muhammad Nafis Abdullah";
-    }
-    90% {
-        content: "Muhammad Nafis Abd";
-    }
-    91% {
-        content: "Muhammad Nafis A";
-    }
-    92% {
-        content: "Muhammad Nafis";
-    }
-    93% {
-        content: "Muhammad Naf";
-    }
-    94% {
-        content: "Muhammad N";
-    }
-    95% {
-        content: "Muhammad N";
-    }
-    96% {
-        content: "Muhammad";
-    }
-    97% {
-        content: "Muhamm";
-    }
-    98% {
-        content: "Muha";
-    }
-    99% {
-        content: "Mu";
-    }
-    100% {
-        content: "";
-    }
-}
-@keyframes junior {
-    0% {
-        content: "";
-    }
-    4% {
-        content: "a ";
     }
     8% {
-        content: "a j";
+        content: "Muham";
+    }
+    10% {
+        content: "Muhamm";
     }
     12% {
-        content: "a ju";
+        content: "Muhamma";
+    }
+    14% {
+        content: "Muhammad";
     }
     16% {
-        content: "a jun";
+        content: "Muhammad ";
+    }
+    18% {
+        content: "Muhammad N";
     }
     20% {
-        content: "a juni";
+        content: "Muhammad Na";
+    }
+    22% {
+        content: "Muhammad Naf";
     }
     24% {
-        content: "a junio";
+        content: "Muhammad Nafi";
+    }
+    26% {
+        content: "Muhammad Nafis";
     }
     28% {
-        content: "a junior";
+        content: "Muhammad Nafis ";
+    }
+    30% {
+        content: "Muhammad Nafis A";
     }
     32% {
-        content: "a junior ";
+        content: "Muhammad Nafis Ab";
+    }
+    34% {
+        content: "Muhammad Nafis Abd";
     }
     36% {
-        content: "a junior W";
+        content: "Muhammad Nafis Abdu";
     }
     40% {
-        content: "a junior We";
+        content: "Muhammad Nafis Abdul";
+    }
+    42% {
+        content: "Muhammad Nafis Abdull";
     }
     44% {
-        content: "a junior Web";
+        content: "Muhammad Nafis Abdulla";
+    }
+    46% {
+        content: "Muhammad Nafis Abdullah";
+    }
+    47% {
+        content: "Muhammad Nafis Abd";
     }
     48% {
-        content: "a junior Web ";
+        content: "Muhammad Naf";
+    }
+    49% {
+        content: "Muhamm";
+    }
+    50% {
+        content: "";
     }
     52% {
-        content: "a junior Web D";
+        content: "a";
+    }
+    54% {
+        content: "a j";
     }
     56% {
-        content: "a junior Web De";
-    }
-    60% {
-        content: "a junior Web Dev";
-    }
-    64% {
-        content: "a junior Web Deve";
-    }
-    68% {
-        content: "a junior Web Devel";
-    }
-    72% {
-        content: "a junior Web Develo";
-    }
-    76% {
-        content: "a junior Web Develop";
-    }
-    80% {
-        content: "a junior Web Develope";
-    }
-    84% {
-        content: "a junior Web Developer";
-    }
-    88% {
-        content: "a junior Web Developer";
-    }
-    89% {
-        content: "a junior Web Develop";
-    }
-    90% {
-        content: "a junior Web Devel";
-    }
-    91% {
-        content: "a junior Web Dev";
-    }
-    92% {
-        content: "a junior Web D";
-    }
-    93% {
-        content: "a junior Web";
-    }
-    94% {
-        content: "a junior We";
-    }
-    95% {
-        content: "a junior";
-    }
-    96% {
-        content: "a junio";
-    }
-    97% {
-        content: "a juni";
-    }
-    98% {
         content: "a ju";
     }
+    58% {
+        content: "a jun";
+    }
+    60% {
+        content: "a juni";
+    }
+    62% {
+        content: "a junio";
+    }
+    64% {
+        content: "a junior";
+    }
+    66% {
+        content: "a junior ";
+    }
+    68% {
+        content: "a junior W";
+    }
+    70% {
+        content: "a junior We";
+    }
+    72% {
+        content: "a junior Web";
+    }
+    74% {
+        content: "a junior Web ";
+    }
+    76% {
+        content: "a junior Web D";
+    }
+    78% {
+        content: "a junior Web De";
+    }
+    80% {
+        content: "a junior Web Dev";
+    }
+    82% {
+        content: "a junior Web Deve";
+    }
+    84% {
+        content: "a junior Web Devel";
+    }
+    86% {
+        content: "a junior Web Develo";
+    }
+    90% {
+        content: "a junior Web Develop";
+    }
+    92% {
+        content: "a junior Web Develope";
+    }
+    94% {
+        content: "a junior Web Developer";
+    }
+    96% {
+        content: "a junior Web Devel";
+    }
+    97% {
+        content: "a junior Web";
+    }
+    98% {
+        content: "a junior";
+    }
     99% {
-        content: "a ";
+        content: "a jun";
     }
     100% {
         content: "";
