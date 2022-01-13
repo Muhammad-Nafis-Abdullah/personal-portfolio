@@ -37,166 +37,286 @@ p{
 }
 .text-highlight::before{
     content: "";
-    animation: myname 10s linear infinite ;
+    animation: myname 10s linear infinite;
 }
 @keyframes myname {
     0% {
         content: "";
     }
-    2% {
+    1.5%{
+        content: "M";
+    }
+    3%{
         content: "Mu";
     }
-    4% {
+    4.5%{
         content: "Muh";
     }
-    6% {
+    6%{
         content: "Muha";
     }
-    8% {
+    7.5%{
         content: "Muham";
     }
-    10% {
+    9%{
         content: "Muhamm";
     }
-    12% {
+    10.5%{
         content: "Muhamma";
     }
-    14% {
+    12%{
         content: "Muhammad";
     }
-    16% {
+    13.5%{
         content: "Muhammad ";
     }
-    18% {
+    15%{
         content: "Muhammad N";
     }
-    20% {
+    16.5%{
         content: "Muhammad Na";
     }
-    22% {
+    18%{
         content: "Muhammad Naf";
     }
-    24% {
+    19.5%{
         content: "Muhammad Nafi";
     }
-    26% {
+    21%{
         content: "Muhammad Nafis";
     }
-    28% {
+    22.5%{
         content: "Muhammad Nafis ";
     }
-    30% {
+    24%{
         content: "Muhammad Nafis A";
     }
-    32% {
+    35.5%{
         content: "Muhammad Nafis Ab";
     }
-    34% {
+    27%{
         content: "Muhammad Nafis Abd";
     }
-    36% {
+    28.5%{
         content: "Muhammad Nafis Abdu";
     }
-    40% {
+    30%{
         content: "Muhammad Nafis Abdul";
     }
-    42% {
+    31.5%{
         content: "Muhammad Nafis Abdull";
     }
-    44% {
+    33%{
         content: "Muhammad Nafis Abdulla";
     }
-    46% {
+    34.5%{
         content: "Muhammad Nafis Abdullah";
     }
-    47% {
+    38%{
+        content: "Muhammad Nafis Abdullah";
+    }
+    38.5%{
+        content: "Muhammad Nafis Abdulla";
+    }
+    39%{
+        content: "Muhammad Nafis Abdull";
+    }
+    39.5%{
+        content: "Muhammad Nafis Abdul";
+    }
+    40%{
+        content: "Muhammad Nafis Abdu";
+    }
+    40.5%{
         content: "Muhammad Nafis Abd";
     }
-    48% {
+    41%{
+        content: "Muhammad Nafis Ab";
+    }
+    41.5%{
+        content: "Muhammad Nafis A";
+    }
+    42%{
+        content: "Muhammad Nafis ";
+    }
+    42.5%{
+        content: "Muhammad Nafis";
+    }
+    43%{
+        content: "Muhammad Nafi";
+    }
+    43.5%{
         content: "Muhammad Naf";
     }
-    49% {
+    44%{
+        content: "Muhammad Na";
+    }
+    44.5%{
+        content: "Muhammad N";
+    }
+    45%{
+        content: "Muhammad ";
+    }
+    45.5%{
+        content: "Muhammad";
+    }
+    46%{
+        content: "Muhamma";
+    }
+    46.5%{
         content: "Muhamm";
     }
-    50% {
+    47%{
+        content: "Muham";
+    }
+    47.5%{
+        content: "Muha";
+    }
+    48%{
+        content: "Muh";
+    }
+    48.5%{
+        content: "Mu";
+    }
+    49%{
+        content: "M";
+    }
+    49.5%{
         content: "";
     }
-    52% {
+    52.5%{
         content: "a";
     }
-    54% {
+    54%{
+        content: "a ";
+    }
+    55.5%{
         content: "a j";
     }
-    56% {
+    57%{
         content: "a ju";
     }
-    58% {
+    58.5%{
         content: "a jun";
     }
-    60% {
+    60%{
         content: "a juni";
     }
-    62% {
+    61.5%{
         content: "a junio";
     }
-    64% {
+    63%{
         content: "a junior";
     }
-    66% {
+    64.5%{
         content: "a junior ";
     }
-    68% {
+    66%{
         content: "a junior W";
     }
-    70% {
+    67.5%{
         content: "a junior We";
     }
-    72% {
+    69%{
         content: "a junior Web";
     }
-    74% {
+    70.5%{
         content: "a junior Web ";
     }
-    76% {
+    72%{
         content: "a junior Web D";
     }
-    78% {
+    73.5%{
         content: "a junior Web De";
     }
-    80% {
+    75%{
         content: "a junior Web Dev";
     }
-    82% {
+    76.5%{
         content: "a junior Web Deve";
     }
-    84% {
+    78%{
         content: "a junior Web Devel";
     }
-    86% {
+    79.5%{
         content: "a junior Web Develo";
     }
-    90% {
+    81%{
         content: "a junior Web Develop";
     }
-    92% {
+    82.5%{
         content: "a junior Web Develope";
     }
-    94% {
+    84%{
         content: "a junior Web Developer";
     }
-    96% {
+    85.5%{
+        content: "a junior Web Developer";
+    }
+    89.5%{
+        content: "a junior Web Develope";
+    }
+    90%{
+        content: "a junior Web Develop";
+    }
+    90.5%{
+        content: "a junior Web Develo";
+    }
+    91%{
         content: "a junior Web Devel";
     }
-    97% {
+    91.5%{
+        content: "a junior Web Deve";
+    }
+    92%{
+        content: "a junior Web Dev";
+    }
+    92.5%{
+        content: "a junior Web De";
+    }
+    93%{
+        content: "a junior Web D";
+    }
+    93.5%{
+        content: "a junior Web ";
+    }
+    94%{
         content: "a junior Web";
     }
-    98% {
+    94.5%{
+        content: "a junior We";
+    }
+    95%{
+        content: "a junior W";
+    }
+    95.5%{
+        content: "a junior ";
+    }
+    96%{
         content: "a junior";
     }
-    99% {
+    96.5%{
+        content: "a junio";
+    }
+    97%{
+        content: "a juni";
+    }
+    97.5%{
         content: "a jun";
     }
-    100% {
+    98%{
+        content: "a ju";
+    }
+    98.5%{
+        content: "a j";
+    }
+    99%{
+        content: "a ";
+    }
+    99.5%{
+        content: "a";
+    }
+    100%{
         content: "";
     }
 }
