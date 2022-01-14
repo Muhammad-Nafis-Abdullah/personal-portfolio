@@ -323,21 +323,14 @@ p{
 }
 
 .ceret{
-    display: inline-block;
-    width: .4rem;
-    color: transparent;
-    height: 3.8rem;
-    background-color: black;
-    border-radius: 10rem;
-    text-align: center;
     animation: blink .5s infinite;
 }
 @keyframes blink {
     from,to{
-        background-color: black;
+        color: var(--my-color);
     }
     50%{
-        background-color: transparent;
+        color: transparent;
     }
 }
 
