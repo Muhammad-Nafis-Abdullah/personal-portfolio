@@ -43,281 +43,278 @@ p{
     0% {
         content: "";
     }
-    1.5%{
+    1%{
         content: "M";
     }
-    3%{
+    2%{
         content: "Mu";
     }
-    4.5%{
+    3%{
         content: "Muh";
     }
-    6%{
+    4%{
         content: "Muha";
     }
-    7.5%{
+    5%{
         content: "Muham";
     }
-    9%{
+    6%{
         content: "Muhamm";
     }
-    10.5%{
+    7%{
         content: "Muhamma";
     }
-    12%{
+    8%{
         content: "Muhammad";
     }
-    13.5%{
+    9%{
         content: "Muhammad ";
     }
-    15%{
+    10%{
         content: "Muhammad N";
     }
-    16.5%{
+    11%{
         content: "Muhammad Na";
     }
-    18%{
+    12%{
         content: "Muhammad Naf";
     }
-    19.5%{
+    13%{
         content: "Muhammad Nafi";
     }
-    21%{
+    14%{
         content: "Muhammad Nafis";
     }
-    22.5%{
+    15%{
         content: "Muhammad Nafis ";
     }
-    24%{
+    16%{
         content: "Muhammad Nafis A";
     }
-    35.5%{
+    17%{
         content: "Muhammad Nafis Ab";
     }
-    27%{
+    18%{
         content: "Muhammad Nafis Abd";
     }
-    28.5%{
+    19%{
         content: "Muhammad Nafis Abdu";
     }
-    30%{
+    20%{
         content: "Muhammad Nafis Abdul";
     }
-    31.5%{
+    21%{
         content: "Muhammad Nafis Abdull";
     }
-    33%{
+    22%{
         content: "Muhammad Nafis Abdulla";
     }
-    34.5%{
-        content: "Muhammad Nafis Abdullah";
-    }
-    38%{
+    23%{
         content: "Muhammad Nafis Abdullah";
     }
     38.5%{
-        content: "Muhammad Nafis Abdulla";
+        content: "Muhammad Nafis Abdullah";
     }
     39%{
-        content: "Muhammad Nafis Abdull";
+        content: "Muhammad Nafis Abdulla";
     }
     39.5%{
-        content: "Muhammad Nafis Abdul";
+        content: "Muhammad Nafis Abdull";
     }
     40%{
-        content: "Muhammad Nafis Abdu";
+        content: "Muhammad Nafis Abdul";
     }
     40.5%{
-        content: "Muhammad Nafis Abd";
+        content: "Muhammad Nafis Abdu";
     }
     41%{
-        content: "Muhammad Nafis Ab";
+        content: "Muhammad Nafis Abd";
     }
     41.5%{
-        content: "Muhammad Nafis A";
+        content: "Muhammad Nafis Ab";
     }
     42%{
-        content: "Muhammad Nafis ";
+        content: "Muhammad Nafis A";
     }
     42.5%{
-        content: "Muhammad Nafis";
+        content: "Muhammad Nafis ";
     }
     43%{
-        content: "Muhammad Nafi";
+        content: "Muhammad Nafis";
     }
     43.5%{
-        content: "Muhammad Naf";
+        content: "Muhammad Nafi";
     }
     44%{
-        content: "Muhammad Na";
+        content: "Muhammad Naf";
     }
     44.5%{
-        content: "Muhammad N";
+        content: "Muhammad Na";
     }
     45%{
-        content: "Muhammad ";
+        content: "Muhammad N";
     }
     45.5%{
-        content: "Muhammad";
+        content: "Muhammad ";
     }
     46%{
-        content: "Muhamma";
+        content: "Muhammad";
     }
     46.5%{
-        content: "Muhamm";
+        content: "Muhamma";
     }
     47%{
-        content: "Muham";
+        content: "Muhamm";
     }
     47.5%{
-        content: "Muha";
+        content: "Muham";
     }
     48%{
-        content: "Muh";
+        content: "Muha";
     }
     48.5%{
-        content: "Mu";
+        content: "Muh";
     }
     49%{
-        content: "M";
+        content: "Mu";
     }
     49.5%{
+        content: "M";
+    }
+    50%{
         content: "";
     }
-    52.5%{
+    51%{
         content: "a";
     }
-    54%{
+    52%{
         content: "a ";
     }
-    55.5%{
+    53%{
         content: "a j";
     }
-    57%{
+    54%{
         content: "a ju";
     }
-    58.5%{
+    55%{
         content: "a jun";
     }
-    60%{
+    56%{
         content: "a juni";
     }
-    61.5%{
+    57%{
         content: "a junio";
     }
-    63%{
+    58%{
         content: "a junior";
     }
-    64.5%{
+    59%{
         content: "a junior ";
     }
-    66%{
+    60%{
         content: "a junior W";
     }
-    67.5%{
+    61%{
         content: "a junior We";
     }
-    69%{
+    62%{
         content: "a junior Web";
     }
-    70.5%{
+    63%{
         content: "a junior Web ";
     }
-    72%{
+    64%{
         content: "a junior Web D";
     }
-    73.5%{
+    65%{
         content: "a junior Web De";
     }
-    75%{
+    66%{
         content: "a junior Web Dev";
     }
-    76.5%{
+    67%{
         content: "a junior Web Deve";
     }
-    78%{
+    68%{
         content: "a junior Web Devel";
     }
-    79.5%{
+    69%{
         content: "a junior Web Develo";
     }
-    81%{
+    70%{
         content: "a junior Web Develop";
     }
-    82.5%{
+    71%{
         content: "a junior Web Develope";
     }
-    84%{
-        content: "a junior Web Developer";
-    }
-    85.5%{
+    72%{
         content: "a junior Web Developer";
     }
     89.5%{
-        content: "a junior Web Develope";
+        content: "a junior Web Developer";
     }
     90%{
-        content: "a junior Web Develop";
+        content: "a junior Web Develope";
     }
     90.5%{
-        content: "a junior Web Develo";
+        content: "a junior Web Develop";
     }
     91%{
-        content: "a junior Web Devel";
+        content: "a junior Web Develo";
     }
     91.5%{
-        content: "a junior Web Deve";
+        content: "a junior Web Devel";
     }
     92%{
-        content: "a junior Web Dev";
+        content: "a junior Web Deve";
     }
     92.5%{
-        content: "a junior Web De";
+        content: "a junior Web Dev";
     }
     93%{
-        content: "a junior Web D";
+        content: "a junior Web De";
     }
     93.5%{
-        content: "a junior Web ";
+        content: "a junior Web D";
     }
     94%{
-        content: "a junior Web";
+        content: "a junior Web ";
     }
     94.5%{
-        content: "a junior We";
+        content: "a junior Web";
     }
     95%{
-        content: "a junior W";
+        content: "a junior We";
     }
     95.5%{
-        content: "a junior ";
+        content: "a junior W";
     }
     96%{
-        content: "a junior";
+        content: "a junior ";
     }
     96.5%{
-        content: "a junio";
+        content: "a junior";
     }
     97%{
-        content: "a juni";
+        content: "a junio";
     }
     97.5%{
-        content: "a jun";
+        content: "a juni";
     }
     98%{
-        content: "a ju";
+        content: "a jun";
     }
     98.5%{
-        content: "a j";
+        content: "a ju";
     }
     99%{
-        content: "a ";
+        content: "a j";
     }
     99.5%{
-        content: "a";
+        content: "a ";
     }
     100%{
-        content: "";
+        content: "a";
     }
 }
 
